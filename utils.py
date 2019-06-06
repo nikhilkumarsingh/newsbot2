@@ -35,4 +35,4 @@ def fetch_reply(msg, session_id):
 				row['link'])
 		return news_str
 	else:
-		return response.fulfillment_text, "text"
+		return response.fulfillment_text
